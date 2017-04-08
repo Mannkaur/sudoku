@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js</title>
+	<link href="style.css" rel="stylesheet">
+	 
+</head>
+<body onload="generate()">
+<div id="page">
+
+
+<div id="title">
+<h1 style="text-align: center;">Sudoko</h1>
+</div>
+
+
+<div id="window">
+
+  <table id="table">
+  <tr>
+  <td id="board"></td>
+  <td id="numbers">
+  <table style="width:100%">
+  
+  <tr>
+  <td style="width:33%"><input type="button" value="1" onClick="insert(1)" onmouseover="highlight(1)" onmouseout="listen(1)" class="num" id="button1"/></td>
+  <td style="width:33%"><input type="button" value="2" onClick="insert(2)" onmouseover="highlight(2)" onmouseout="listen(2)" class="num" id="button2"/></td>
+  <td style="width:33%"><input type="button" value="3" onClick="insert(3)" onmouseover="highlight(3)" onmouseout="listen(3)" class="num" id="button3"/></td>
+  </tr>
+  <tr>
+  <td style="width:34%"><input type="button" value="4" onClick="insert(4)" onmouseover="highlight(4)" onmouseout="listen(4)" class="num" id="button4"/></td>
+  <td style="width:34%"><input type="button" value="5" onClick="insert(5)" onmouseover="highlight(5)" onmouseout="listen(5)" class="num" id="button5"/></td>
+  <td style="width:34%"><input type="button" value="6" onClick="insert(6)" onmouseover="highlight(6)" onmouseout="listen(6)" class="num" id="button6"/></td>
+  </tr>
+  <tr>
+  <td style="width:33%"><input type="button" value="7" onClick="insert(7)" onmouseover="highlight(7)" onmouseout="listen(7)" class="num" id="button7"/></td>
+  <td style="width:33%"><input type="button" value="8" onClick="insert(8)" onmouseover="highlight(8)" onmouseout="listen(8)" class="num" id="button8"/></td>
+  <td style="width:33%"><input type="button" value="9" onClick="insert(9)" onmouseover="highlight(9)" onmouseout="listen(9)" class="num" id="button9"/></td></tr></table>
+
+</td>
+</tr>
+</table>
+
+<script type="text/javascript" src="app.js"></script>  
+
+
+</body>
+</html>

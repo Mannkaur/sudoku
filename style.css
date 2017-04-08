@@ -1,0 +1,67 @@
+
+
+body{
+	background-color: #4169E1;
+}
+
+h1{
+	margin:0;
+	font-size: 30px;
+
+}
+
+tr, td{
+	padding:0;
+	margin:0;
+	border:0;
+}
+.num{
+	margin: 0;
+	padding: 0;
+	border:0;
+	background-color: white;
+	width:100%;
+}
+#page{
+	width:55%;
+	margin:auto;
+	background-color: #0300fd;
+
+}
+
+#title{
+	width:100%;
+	background-color: #00b7eb;
+}
+
+
+#board{
+	width:80%;
+	background-color: #ffffff;
+}
+
+#numbers{
+	width:20%;
+	background-color: #00b7eb;
+}
+
+#table{
+	margin:0;
+	padding: 0;
+	border:0;
+	width:100%;
+}
+
+#game{
+	width:100%;
+	height:100%;
+	border:3px solid black;
+	border-collapse: collapse;
+}
+
+#game td{
+	width:100%;
+	height:100%;
+	border:3px solid black;
+	text-align:center;
+}
